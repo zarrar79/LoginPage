@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    width: auto;
+}
+.logo{
+    width: 222px;
+    height: 93px;
+    margin-top: 20px;
+}
+.main-header{
+    margin-top: 25px;
+    font-family: Poppins;
+    color: #000000;
+}
+.para{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Roboto;
+}
+.buttons{
+    padding-right: 30px;
+    display: flex;
+    margin-top: 30px;
+}
+.btn1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border:3px solid #E7EFF3;
+    border-radius: 15px;
+    width: 200px;
+    height:35px;
+    font-family: Inter;
+    font-size: 15px;
+
+}
+.btn2{
+    text-align: center;
+    border:3px solid #E7EFF3;
+    border-radius: 15px;
+    width: 200px;
+    height:50px;
+    font-family: Inter;
+    font-size: 15px;
+
+}
+.hr{
+    display: flex;
+}
+.hrline{
+    margin-top: 20px;
+    display: flex;
+}
+.hrline hr{
+       border: .5px #E7EFF3 solid;
+        flex-grow: 1;
+}
+.hrline hr p{
+    font-size: 15px;
+    text-align: center;
+    font-family: Inter;
+}
+.name{
+    font-size: 15px;
+    font-family: Inter;
+    color: #4E4E4E;
+}
+.name-input{
+    border-radius: 4px;
+    padding-left: 15px;
+    font-family: Inter;
+    border:1px #4E4E4E solid;
+    width: 350px;
+    height: 32px;
+    font-size: 15px;
+}
+.forgetPass{
+    font-family: Inter;
+    margin-top: 20px;
+    display: flex;
+}
+.forget{
+    font-size: 15px;
+    color: #436CAD;
+
+    padding-left: 180px;
+}
+.termCond{
+    margin-top: 30px;
+    display: flex;
+}
+.termCond input{
+
+    border: 6px #494949 solid;
+    width: 20px;
+    height: 20px;
+}
+.termCond p{
+    margin-left: 10px;
+     font-family: Inter;
+     color: #494949;
+}
+.login button{
+    border: 0px white;
+    margin-top: 20px;
+    color: white;
+    font-family: Inter;
+    background-color:#436CAD;
+    text-align: center;
+    width: 380px;
+    height: 32px;
+    border-radius: 6px;
+}
+.dont{
+    font-family: Inter;
+    font-size: 15px;
+}
+.sign{
+    margin-left: 180px;
+}
+/* Right */
+.right{
+    background-size: cover;
+    background-image: url("./Background.jpg");
+    background-repeat: no-repeat;
+}
+.img11{
+    position: absolute;
+    z-index: 1;
+    margin-top: 300px;
+    margin-left: 70px;
+    width: 560px;
+    height: 260px;
+    opacity: 0.5;
+}
+.img12{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 35px;
+    width: 520px;
+    height: 260px;
+    z-index: 3;
+}
