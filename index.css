@@ -2,151 +2,217 @@
     margin: 0;
     padding: 0;
 }
+
 .grid{
-    margin-left: 20px;
+    justify-content: space-around;
+    margin-top: 2.3%;
+    margin-left: 50px;
+    margin-right: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.3fr;
+    height: 50em;
 }
-.left{
-    width: auto;
+#eye img{
+    position: absolute;
+    top: 13.5px;
+    left: 350px;
+    cursor: pointer;
 }
-.logo{
-    width: 222px;
-    height: 93px;
-    margin-top: 20px;
+#eye{
+    position: relative;
 }
 .main-header{
+    font-size: 21px;
+    font-weight: bold;
     margin-top: 25px;
     font-family: Poppins;
     color: #000000;
 }
 .para{
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 13px;
     margin-top: 10px;
     font-family: Roboto;
 }
 .buttons{
-    padding-right: 30px;
+    color: #000000;
+    padding-right: 150px;
     display: flex;
     margin-top: 30px;
 }
+.google p{
+    padding-left: 5px;
+    font-size: 12px;
+}
+.google{
+    padding-right: 20px;
+}
+.apple p{
+    padding-left: 5px;
+    font-size: 12px;
+}
+.apple{
+    padding-right: 5px;
+    transform: 0.5s;
+}
 .btn1{
+    background-color: white;
     justify-content: center;
     align-items: center;
     display: flex;
     text-align: center;
-    border:3px solid #E7EFF3;
+    border:1px solid #E7EFF3;
     border-radius: 15px;
-    width: 200px;
-    height:35px;
+    width: 185px;
+    height: 40px;
     font-family: Inter;
-    font-size: 15px;
-
+    font-size: 13px;
+   cursor: pointer;
 }
 .btn2{
+    background-color: white;
     text-align: center;
-    border:3px solid #E7EFF3;
+    border:1px solid #E7EFF3;
     border-radius: 15px;
-    width: 200px;
-    height:50px;
+    width: 18px;
+    height:40px;
     font-family: Inter;
-    font-size: 15px;
+    font-size: 13px;
+   cursor: pointer;
 
 }
 .hr{
     display: flex;
 }
 .hrline{
+    color: #4E4E4E;
     margin-top: 20px;
     display: flex;
+    width: 386px;
 }
 .hrline hr{
-       border: .5px #E7EFF3 solid;
-        flex-grow: 1;
+       border: 0.01px #E7EFF3 solid;
+       border-top: 0.001px;
+       width: 180px;
+       height: px;
 }
-.hrline hr p{
-    font-size: 15px;
-    text-align: center;
-    font-family: Inter;
+.hrline p{
+    font-size: 14px;
+    color: #4E4E4E;
 }
 .name{
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 13px;
     font-family: Inter;
     color: #4E4E4E;
 }
 .name-input{
-    border-radius: 4px;
-    padding-left: 15px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     font-family: Inter;
-    border:1px #4E4E4E solid;
-    width: 350px;
-    height: 32px;
-    font-size: 15px;
+    border:0.1px #E7EFF3 solid;
+    width: 351px;
+    height: 35px;
+    font-size: 12px;
 }
 .forgetPass{
     font-family: Inter;
     margin-top: 20px;
     display: flex;
 }
+.forget a{
+    color: #436CAD;
+    text-decoration: none;
+    font-size: 13px;
+}
 .forget{
-    font-size: 15px;
+    margin-left: 185px;
+    font-size: 11px;
     color: #436CAD;
 
-    padding-left: 180px;
+    padding-left: 25px;
+}
+.termCond a,p{
+    color: black;
+    font-size: 12px
 }
 .termCond{
-    margin-top: 30px;
+    margin-top: 15px;
     display: flex;
 }
 .termCond input{
 
     border: 6px #494949 solid;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 .termCond p{
-    margin-left: 10px;
+    margin-left: 5px;
      font-family: Inter;
      color: #494949;
+     font-size: 12px;
 }
 .login button{
+    cursor: pointer;
     border: 0px white;
     margin-top: 20px;
     color: white;
     font-family: Inter;
     background-color:#436CAD;
     text-align: center;
-    width: 380px;
-    height: 32px;
+    width: 383px;
+    height: 42px;
     border-radius: 6px;
+    font-size: 13px;
 }
 .dont{
     font-family: Inter;
-    font-size: 15px;
+    font-size: 13px;
 }
 .sign{
-    margin-left: 180px;
+    margin-left: 153px;
 }
+.footer p{
+    font-family: Inter;
+    color: #929292;
+    font-size: 14px;
+}
+/* .eye{
+    position: absolute;
+    left: 410px;
+    width: 17px;
+    top: 520px;
+    cursor: pointer;
+} */
 /* Right */
-.right{
-    background-size: cover;
-    background-image: url("./Background.jpg");
+.divimg{
+    width: 100%;
+    height: 185vh;
+    margin-right: 100px;
+    position: relative;
+    background-image: url("./Background.jpg"); 
     background-repeat: no-repeat;
+    background-size: contain;
+
 }
 .img11{
+    width: 513px;
+    height: 266px;
     position: absolute;
     z-index: 1;
-    margin-top: 300px;
-    margin-left: 70px;
-    width: 560px;
-    height: 260px;
+    top: 520px;
+    left: 172px;
     opacity: 0.5;
+    border-radius: 7px;
 }
 .img12{
+    width: 629px;
+    height: 321px;
+    top: 380px;
+    left: 35px;
+    border-radius: 7px;
     position: absolute;
-    margin-top: 160px;
-    margin-left: 35px;
-    width: 520px;
-    height: 260px;
     z-index: 3;
 }
