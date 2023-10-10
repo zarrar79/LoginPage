@@ -13,7 +13,7 @@
     position: relative;
 }
 #eye img{
-    top: 644px;
+    top: 610px;
     left: 490px;
     cursor: pointer;
     position: absolute;
@@ -28,9 +28,9 @@
     color: #000000;
 }
 .para{
-    font-weight: 400;
-    font-size: 14px;
-    margin-top: 10px;
+    font-weight: 350;
+    font-size: 13px;
+    margin-top: 15px;
     font-weight: 565;
     font-family: Roboto;
 }
@@ -96,10 +96,11 @@
 .hrline p{
     font-size: 15px;
     color: #4E4E4E;
+    font-weight: lighter;
 }
 .name{
-    padding-bottom: 10px;
-    font-weight: bold;
+    padding-bottom: 3px;
+    font-weight: 550;
     font-size: 14px;
     font-family: Inter;
     color: #4E4E4E;
@@ -123,18 +124,18 @@
 .forget a{
     color: #436CAD;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
 }
 .forget{
-    margin-left: 265px;
+    margin-left: 257px;
     font-size: 11px;
     color: #436CAD;
 
     padding-left: 25px;
 }
-.termCond a,p{
+.termCond a{
     color: black;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 }
 .termCond{
@@ -142,7 +143,6 @@
     display: flex;
 }
 .termCond input{
-
     border: 6px #494949 solid;
     width: 15px;
     height: 15px;
@@ -161,17 +161,19 @@
     font-family: Inter;
     background-color:#436CAD;
     text-align: center;
-    width: 470px;
-    height: 42px;
+    width: 483px;
+    height: 47px;
     border-radius: 6px;
     font-size: 14px;
 }
 .dont{
+    margin-top: 3px;
     font-family: Inter;
     font-size: 14px;
+    font-weight: 400;
 }
 .sign{
-    margin-left: 167px;
+    margin-left: 169.5px;
 }
 .footer p{
     font-family: Inter;
@@ -196,8 +198,8 @@
     /* height: 266px; */
     position: absolute;
     z-index: 1;
-    top: 553px;
-    left: 150px;
+    top: 552px;
+    left: 148px;
     opacity: 0.5;
     border-radius: 7px;
 }
