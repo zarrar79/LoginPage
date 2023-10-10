@@ -13,12 +13,12 @@
     position: relative;
 }
 #eye img{
-    top: 615px;
+    top: 644px;
     left: 490px;
     cursor: pointer;
+    position: absolute;
 }
 .eye{
-    position: absolute;
 }
 .main-header{
     font-size: 21px;
