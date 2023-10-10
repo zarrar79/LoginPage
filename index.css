@@ -98,6 +98,7 @@
     color: #4E4E4E;
 }
 .name{
+    padding-bottom: 10px;
     font-weight: bold;
     font-size: 14px;
     font-family: Inter;
