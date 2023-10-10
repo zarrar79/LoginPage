@@ -123,7 +123,12 @@
     font-weight: 500;
     outline: none;
 }
-input:focus{
+input[type = text]:focus{
+    border: 1px solid #436CAD;
+    box-shadow: 0.5px 0.3px 2px #436CAD;
+    outline: none;
+}
+input[type = password]:focus{
     border: 1px solid #436CAD;
     box-shadow: 0.5px 0.3px 2px #436CAD;
     outline: none;
