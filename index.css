@@ -186,6 +186,7 @@ input[type = password]:focus{
     font-size: 14px;
 }
 .dont a{
+    color: #436CAD;
     padding-left:3px;
 }
 .dont{
